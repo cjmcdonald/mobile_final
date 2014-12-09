@@ -1,0 +1,151 @@
+/* CSS Document */
+.con_topDivWrapperCls{
+	height:100%;
+	background-color:#e0dfdf;
+	float:left;
+	width:100%;
+}
+.con_topDiv{
+	height:30%;
+	background-color:#e0dfdf;
+	width:945px;
+	margin:0 auto;
+
+}
+.contactTitleCls{
+	font-family:'Roboto';
+	font-weight:bold;
+	font-size:32px;
+	text-align:left;
+	color:#ea5a56;
+	padding:0px;
+	margin:50px 20px 20px 0px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+.con_fieldsWrapperCls{
+	width:470px;
+	float:left;
+}
+.formfieldsCls{
+	width:100%;
+	padding:10px 10px 10px 0px;
+}
+.textBoxCls{
+	width:100%;
+	height:30px;
+	margin-top: 5px;
+}
+.textAreaCls{
+	margin-top: 5px;
+}
+.submitBtnCls{
+   height:48px;
+   width:158px;
+   background-image:url(../images/congetintouch.png);
+   background-repeat:no-repeat;
+   float:left;
+   cursor:pointer;
+   border:none;
+   margin-bottom:10px;
+}
+.submitBtnCls:hover{
+   height:48px;
+   width:158px;
+   background-image:url(../images/congetintouch_hover.png);
+   background-repeat:no-repeat;
+   float:left;
+   cursor:pointer;
+   border:none;
+   margin-bottom:10px;
+}
+.submitBtnCls:active{
+   height:48px;
+   width:158px;
+   background-image:url(../images/congetintouch_press.png);
+   background-repeat:no-repeat;
+   float:left;
+   cursor:pointer;
+   border:none;
+   margin-bottom:10px;
+}
+
+label{
+	color:#7e7e7e;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+.con_infoWrapperCls{
+	width:470px;
+	float:left;
+	margin: 15px 0px 0px 0px;
+}
+.infoTxtCls{
+	padding-left:100px;
+	padding-bottom:20px;
+	color:#35383e;
+	font-size:18px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+.emailTxtCls{
+	padding-left:100px;
+	padding-bottom:20px;
+	color:#ea5a56;
+	font-weight:bold;
+	font-size:24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+.phoneTxtCls{
+	padding-left:100px;
+	padding-bottom:20px;
+	padding-top: 20px;
+	color:#3b3b3b;
+	font-size:24px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+ul#icons{
+	padding: 0px;
+	margin:0px;
+}
+ul#icons li{
+	list-style:none;
+	padding: 0px;
+	margin:0px;
+	width:50px;
+	cursor:pointer;
+	float:left;
+}
+ul#icons a{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+}
+.iconsWrapperCls{
+	padding:20px 0px 20px 100px;
+	height:50px;
+}
+.fbCls{
+	background-image:url(../images/fb_grey.png);
+	height:40px;
+	width:40px;
+	padding-right:10px;
+	background-repeat:no-repeat;
+}
+.fbCls:hover{
+	background-image:url(../images/fb_blue.png);
+	height:40px;
+	width:40px;
+	padding-right:10px;
+	background-repeat:no-repeat;
+}
+.linkedInCls{
+	background-image:url(../images/linkedingrey.png);
+	height:40px;
+	width:40px;
+	background-repeat:no-repeat;
+}
+.linkedInCls:hover{
+	background-image:url(../images/linkedinblue.png);
+	height:40px;
+	width:40px;
+	background-repeat:no-repeat;
+}

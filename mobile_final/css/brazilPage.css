@@ -1,0 +1,220 @@
+/* CSS Document */
+.wrk_topDivWrapperCls{
+	height:100%;
+	background-color:#E4E4E4;
+	float:left;
+	width:100%;
+}
+.wrk_topDiv{
+	height:30%;
+	width:945px;
+	margin:0 auto;
+
+}
+.wrkPageTitleCls{
+	font-family:'Roboto';
+	font-weight:bold;
+	font-size:32px;
+	text-align:left;
+	color:#ea5a56;
+	padding:0px;
+	margin:30px 20px 15px 0px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+ul#wrkList{
+	padding:0px;
+	margin:0px;
+}
+ul#wrkList li{
+	list-style:none;
+	text-align: center;
+}
+p{
+	color:#7e7e7e;
+	font-size:16px;
+	text-align:left;
+	padding-bottom:30px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	line-height:22px;
+}
+.appImgCls{
+	width:300px;
+	height:258px;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+.wrk_title{
+    float:left;
+    margin-left: 10px;
+	color:#35383e;
+	font-size:20px;
+	text-align:left;
+	font-weight:bold;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+    width: 300px;
+    line-height:62px;    
+}
+.wrk_subTitle{
+    clear:both;
+	text-align:left;
+	color:#35383e;
+	font-size:18px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+
+#nativeApps{
+	background-color:#f2f2f2;
+}
+
+.typeOfApps
+{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+#meteraid{
+	background-color:#f2f2f2;
+}
+
+#kurbside{
+	background-color:#e4e4e4;
+}
+
+
+#jwuApps{
+	background-color:#e4e4e4;
+}
+
+
+#moomo{
+	background-color:#f2f2f2;
+}
+
+#local{
+	background-color:#f2f2f2;
+}
+
+#viziApps{
+	background-color:#e4e4e4;
+}
+
+
+
+#egyptian{
+	background-color:#f2f2f2;
+}
+
+#comingSoon{
+	background-color:#f2f2f2;
+}
+
+.wrk_WrapperCls{
+	margin: 0 auto;
+    width: 945px;
+    height: 340px;
+}
+
+.app_title_container
+{
+    height: 82px;
+    padding-top: 20px;
+}
+
+.app_logo
+{
+    background-size:contain;
+    width:61px;
+    height:62px;
+    float:left;
+}
+
+#jwuLogo
+{
+    background-image:url('../images/jwu.png');
+}
+#moomoLogo
+{
+    background-image:url('../images/moomo.png');
+}
+
+#vziLogo
+{
+    background-image:url('../images/viziapp.png');
+}
+
+#egyptLogo
+{
+    background-image:url('../images/egyptLogo.png');
+}
+
+#kurbsLogo
+{
+    background-image:url('../images/kurbsLogo.png');
+}
+
+#meteraid_logo
+{
+    background-image:url('../images/meteraid_logo.png');
+}
+
+#faberge_egghunt_logo
+{
+    background-image:url('../images/egghunt/logo.png');
+}
+
+#myntw_logo
+{
+    background-image:url('../images/myntw/logo.png');
+}
+
+
+
+#local_logo
+{
+    background-image:url('../images/local_logo.png');
+}
+
+#cmgSoonApps
+{
+    background-color:#F2F2F2;
+    height:220px;
+}
+
+#comingSoonTitle{
+    margin: 0 important!;
+    padding-top: 10px !important;
+}
+.cmgAppsImgCls{
+	width:96px;
+	height:96px;	
+	float:left;
+	padding-bottom:30px;
+}
+.cmgAppsImg1Cls{
+	width:96px;
+	height:96px;	
+	float:left;
+	padding-left: 20px;
+	padding-bottom:30px;
+}
+.cmgAppsWrapper{
+	clear:both;
+	width:100%;
+}
+.cmgSoonImgsCls{
+	width:945px;
+	margin:0 auto;
+}
+.appContentCls{
+	float:left;
+	width:425px;
+}
+.wrk_subTitle a{
+	text-decoration:none;
+	color:#35383e
+}
+.wrk_subTitle a:hover{
+	text-decoration:none;
+	color: #ea5a56;
+	border-bottom: none; /*bottom border is 3px*/
+}

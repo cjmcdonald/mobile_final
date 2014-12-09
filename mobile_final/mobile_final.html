@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+         charset=UTF-8">
+     <title>Rickshaw Travel Agency</title>
+	 <link rel="stylesheet" href="css/fonts.css" type="text/css" />
+	 <link rel="stylesheet" href="css/common.css" type="text/css" />
+	 <link rel="stylesheet" href="css/homePage.css" type="text/css" />
+	 <link rel="stylesheet" href="css/germanyPage.css" type="text/css" />
+	 <link rel="stylesheet" href="css/japanPage.css" type="text/css" />
+	 <link rel="stylesheet" href="css/bazilPage.css" type="text/css" />
+	 <link rel="stylesheet" href="css/contactusPage.css" type="text/css" />
+	 <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+	 <!-- Following script is used for testimonial carousel -->
+	 <script src="js/easypaginate.js" type="text/javascript"></script>
+	 <script src="js/main.js" type="text/javascript"></script>
+	 <script type="text/javascript">
+	
+		jQuery(function($){
+			
+			$('ul#items').easyPaginate({
+				step:1
+			});
+			
+		});    
+    
+     </script>
+  </head>
+  <body>
+  	<div id="wrap" class="wrap">
+		<!-- Header Logo and Menu Items -->
+		<div id="headerWrapper" class="headerWrapperCls">
+			<div id="headerDiv" class="headerDiv">
+				<ul id="menuItems">
+					<li id="li_home" class="menuLinks logoWrapper">
+						<a href="#" id="logoImg" class="logoImg"></a>
+					</li>
+					<li id="li_contact" class="menuLinks topMenu menuCls"><a href="#">CONTACT</a></li>
+					<li id="li_expertise" class="menuLinks topMenu menuCls"><a href="#">GERMANY</a></li>
+					<li id="li_services" class="menuLinks topMenu menuCls"><a href="#">JAPAN</a></li>
+					<li id="li_work" class="menuLinks topMenu menuCls"><a name="services" href="#">BRAZIL</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="contentArea" class="contentAreaCls">
+			<!-- Home page Content area -->
+			<div id="homeParentDiv" class="divParentCls">
+				<div id="topDivWrapper" class="topDivWrapperCls">	
+					<div id="topDiv" class="topDiv">
+						<div id="topContentDiv" class="topContent">
+
+							<div id="topContentTitleDiv" class="contentTitle">See the world!</div>
+                            
+							<div id="topContentTextDiv" class="contentText">
+								Welcome to Rickshaw Travel Agency, where you get the best deals for the arrangement of your business or personal travel, dirt cheap. Dirt potentially included.<br/>
+                                See the world for the fraction of the price a real travel agency would give you!
+							</div>
+                            <div id="topContentButtonsDiv" class="contentButtons">
+								<div id="getInTouchBtn" class="getInTouchBtnCls"></div>
+								<div id="viewWorkBtn" class="viewWorkBtnCls"></div>
+							</div>
+						</div>
+						<div id="imgDiv" class="imgWrapper">
+							<img src="images/final_img1.jpg" class="cs_final_img1"/>
+						</div>
+					</div>
+				</div>
+				<!-- Testimonails content area -->
+				<div id="btmDivWrapper" class="btmDivWrapperCls">	
+					<div id="bottomDiv" class="bottomDiv">
+						<div id="testWrapper" class="testWrapper">
+							<ul id="items">
+								<li>
+									<div class="testimonial_1_ImgCls testimonial_Icon"></div>
+									<div id="testimonial_1" class="testimonial_TxtCls">
+										<blockquote>"Plane crashed. But I met my wife in that crash, so not a total loss."</blockquote>
+									</div><div/>
+									<div class="testimonial_from">- Jerry</div>
+								</li>
+								<li>
+									<div class="testimonial_2_ImgCls testimonial_Icon"></div>
+									<div id="testimonial_2" class="testimonial_TxtCls">
+										<blockquote>"Used Rickshaw to fake my death and escape some nasty business. Decent blokes."</blockquote>
+									</div><div/>
+									<div class="testimonial_from">- Formerly Archie Giovanni. Now David Lichenburg.</div>
+								</li>
+								<li class="testimonial_ImgCls">
+									<div class="testimonial_3_ImgCls testimonial_Icon"></div>
+									<div id="testimonial_3" class="testimonial_TxtCls">
+										<blockquote>"It's like some gangster movie, but real life. Pretty exciting stuff."</blockquote>
+									</div><div/>
+									<div class="testimonial_from">- Nick</div>
+								</li>
+						</ul>
+						</div>
+                        
+                            <!--  potential spot for footer image -->
+                        
+                        
+                        
+					</div>
+				</div>
+			</div>
+
+            
+			<!-- Contact Us Page -->
+			<div id="contactParent" class="divParentCls">
+				<div id="con_topDivWrapper" class="con_topDivWrapperCls">
+					<div id="con_topDiv" class="con_topDiv">
+						<div id="contactTitle" class="contactTitleCls">CONTACT US</div>
+						<div id="con_fieldsWrapper" class="con_fieldsWrapperCls">
+                            <form id="userDetails">
+                                <div id="nameDiv" class="formfieldsCls">
+                                    <label>Name</label><br>
+                                    <input type="text" id="userName" name="userName" class="textBoxCls">
+                                        </div>
+                                <div id="emailDiv" class="formfieldsCls">
+                                    <label>Email</label><br>
+                                    <input type="text" id="userEmail" name="userEmail" class="textBoxCls">
+                                        </div>
+                                <div id="phoneDiv" class="formfieldsCls">
+                                    <label>Phone</label><br>
+                                    <input type="text" id="userPhone" name="userPhone" class="textBoxCls">
+                                        </div>
+                                <div id="commentsDiv" class="formfieldsCls">
+                                    <label>Say Something</label><br>
+                                    <textarea id="contactMsg" rows="8" cols="56"  class="textAreaCls"></textarea>
+                                </div>
+                                <div id="companyDiv">
+                                    <input type="submit" class="submitBtnCls" name="" value="" onClick="sendMessage();">
+                                        </div>
+                            </form>
+						</div>
+						<div id="con_infoWrapper" class="con_infoWrapperCls">
+							<div id="infoTxt" class="infoTxtCls">
+								If you have questions about prices, locations, tours, packages, or anything at all, shoot us an email! We'll fix you right up.
+							</div>
+							<div id="emailTxt">
+								<a class="emailTxtCls" href="mailto:fake@rickshawfake.fake">fake@rickshawfake.fake</a>
+							</div>
+							<div id="phoneTxt" class="phoneTxtCls">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            
+			<!-- Germany Page -->
+			<div id="expertiseParent" class="divParentCls">
+				<div id="exp_topDivWrapper" class="exp_topDivWrapperCls">
+					<div id="exp_topDiv" class="exp_topDiv">
+						<div id="pageTitle" class="pageTitleCls"> GERMANY </div>
+						<p id="expertiseTxt">Home of the economic backbone for the entire European continent, Germany has everything you need! Fancy Euro-Dance clubs! Breathtaking countryside!
+						Castles everywhere! Best of all, it's no longer a fascist dictatorship!</p>
+					</div>
+                    
+                    
+                    <div class="clear_both"></div>
+                    <div id="exp_bottomDiv" class="exp_bottomDiv">
+                        <div id="expList" class="expListCls">
+                            <img class="germanyPhoto" src="images/germany_photo1.jpg" />
+                        </div>
+                    </div>
+                    
+                </div>
+                                        
+            </div>
+                                    
+			<!-- Japan Page -->
+			<div id="servicesParent" class="divParentCls">
+				<div id="ser_topDivWrapper" class="ser_topDivWrapperCls">
+					<div id="ser_topDiv" class="ser_topDiv">
+						<div id="serPageTitle" class="serPageTitleCls"> JAPAN </div>
+							<p class="servicesTxtCls"> Visit the thriving culture of Japan! From the metropolis of Tokyo to the rural paradise surrounding Mt. Fuji, you'll be sure to enjoy your stay!</p>
+						</div>
+						<div id="ser_centerDiv" class="ser_centerDiv">
+							<div id="servicesDiv" class="servicesWrapper">
+								<img class="japanPhoto" src="images/japan_photo1.jpg" />
+							</div>
+							
+						</div>
+				</div>
+			</div>
+            
+                                        
+                                        <!-- Brazil Page -->
+										<div id="workParent" class="divParentCls">
+                                        <div id="exp_topDivWrapper" class="exp_topDivWrapperCls">
+					<div id="exp_topDiv" class="exp_topDiv">
+						<div id="pageTitle" class="pageTitleCls"> Brazil </div>
+						<p id="expertiseTxt">Home of the not only the largest Jesus statue in the world, but also the largest slum on the planet, what's not to like?</p>
+					</div>
+                    
+                    
+                    <div class="clear_both"></div>
+                    <div id="exp_bottomDiv" class="exp_bottomDiv">
+                        <div id="expList" class="expListCls">
+                            <img class="germanyPhoto" src="images/brazil_photo1.jpg" />
+                        </div>
+                    </div>
+                    
+                </div>
+            
+		
+  		</div>
+		<div id="footerDiv" class="footerDivCls">
+			<div id="footerTxt">&copy; 2014 Rickshaw Travel Agency. But not really this is a website for a class.</div>
+		</div> 
+	</div>
+  </body>
+</html>

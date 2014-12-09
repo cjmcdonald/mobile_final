@@ -1,0 +1,117 @@
+/* CSS Document */
+body,
+html {
+	margin:0;
+	padding:0;
+	background-color: #000;
+	font-family: 'Roboto';
+	-webkit-font-smoothing: antialiased;
+}
+
+.divParentCls{
+	width:100%;
+	height:100%;
+	display:none;
+}
+.wrap{
+	width:100%;
+	height:100%;
+}
+.headerWrapperCls{
+	background-color: #35383F;
+	height: 90px;
+	margin:0;
+	padding:0;
+}
+.headerDiv{
+	height:90px;
+	width:945px;
+	margin:0 auto;
+}
+#headerDiv ul{
+	list-style-type: none;
+	background-color: #35383F;
+	height: 80px;
+	margin:0;
+	padding:0;
+}
+#headerDiv li{
+	display:inline;
+	padding:0;
+}
+ul a {
+	text-decoration: none;
+	font-size:medium;
+	color: #ABAAAF;
+	position:relative;	
+}
+ul a:hover {
+	color: #F2F2F2;
+}
+.menuCls{
+	margin-top:45px;
+}
+.menuSelectCls{
+	color: #F2F2F2;
+	border-bottom: 3px solid #F75565;
+}
+
+.logoImg{
+	height: 45px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	margin-top:25px;
+	display: block;
+	width:204px;
+}
+.logoWrapper{
+	width:45%;
+	float:left;
+}
+#logoImg{
+	border-bottom:none !important;
+}
+
+.menuLinks
+{
+}
+
+.topMenu {
+	float: right;
+	margin-left:20px;
+}
+
+#li_contact{
+}
+#li_services{
+}
+#li_expertise{
+}
+#li_work{
+}
+
+
+.footerDivCls{
+	width:100%; 
+	background-color:#F2F2F2;
+	height:40px;
+	font-size:11px;
+	color:#7e7e7e;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	text-align:left;
+	clear: both;
+}
+#footerTxt{
+	padding-top:15px;
+	width:945px;
+	margin:0 auto;
+}
+.contentAreaCls{
+
+}
+
+.clear_both
+{
+    clear:both;
+    display:block;
+}

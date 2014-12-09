@@ -1,0 +1,138 @@
+/* CSS Document */
+.exp_topDivWrapperCls{
+	height:100%;
+	background-color:#E4E4E4;
+	float:left;
+	width:100%;
+}
+.exp_topDiv{
+	height:30%;
+	background-color:#E4E4E4;
+	width:945px;
+	margin:0 auto;
+
+}
+.exp_centerDiv{
+	height:40%;
+	background-color:#E4E4E4;
+	width:945px;
+	margin:0 auto;
+	
+}
+.exp_bottomDiv{
+	height:29%;
+	background-color:#E4E4E4;
+	width:945px;
+	margin:0 auto;
+
+}
+.pageTitleCls{
+	font-family:'Roboto';
+	font-weight:bold;
+	font-size:32px;
+	text-align:left;
+	color:#ea5a56;
+	padding:0px;
+	margin:40px 20px 10px 0px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+.processCls{
+	font-family:'Roboto';
+	font-weight:bold;
+	font-size:20px;
+	color:#7e7e7e;
+	padding:0px;
+	margin:40px 0px 0px 0px;
+    width:90%;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+#expertiseTxt{
+	text-align:left;
+	color:#7e7e7e;
+	font-size:16px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	margin:0;
+	padding:0;
+	line-height: 22px;
+}
+p{
+	text-align:left;
+	color:#35383e;
+	font-size:24px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+.expListCls{
+    margin: 10px auto;
+    clear:both;
+    width: 90%;
+}
+
+.skillset{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.headingWrapperCls{
+	background-color:#E4E4E4;
+	padding-left:190px;
+}
+.skillsHeadingWrapperCls{
+	background-color:#E4E4E4;
+	padding-left:270px;
+}
+.processWrapper{
+	background-color:#E4E4E4;
+	float:left;
+	width:100%;
+}
+.processImg1{
+	background-image:url(../images/bulb.png);
+	height:99px;
+	width:99px;
+}
+.processImg2{
+	background-image:url(../images/design_comp.png);
+	height:99px;
+	width:99px;
+}
+.processImg3{
+	background-image:url(../images/code.png);
+	height:99px;
+	width:99px;
+}
+.processImg4{
+	background-image:url(../images/rocket.png);
+	height:99px;
+	width:99px;
+}
+ul#processList{
+	margin:0px;
+	padding:0px;
+}
+ul#processList li{
+	list-style:none;
+    width: 210px;
+	float:left;
+	padding-top: 10px;
+}
+
+.processTitleCls{
+	color:#ea5a56;
+	font-size:20px;
+	text-align:left;
+	font-weight:bold;
+	padding-top:10px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+}
+.processDescCls{
+	color:#7e7e7e;
+	font-size:14px;
+	text-align:left;
+	padding-top:10px;
+	text-shadow: 0px 1px 0px rgba(255,255,255,1);
+	line-height: 22px;
+}
+.techIconsCls{
+	width:675px;
+	height:54px;
+}
